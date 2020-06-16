@@ -10,6 +10,8 @@
         <StackLayout>
             <Button x:Name="Item1" Text="InteractiveDemo"/>
             <Button x:Name="Item2" Text="SimpleDemo"/>
+            <Button x:Name="Item3" Text="CommandDemo"/>
+            <Button x:Name="Item4" Text="Operaciones"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>

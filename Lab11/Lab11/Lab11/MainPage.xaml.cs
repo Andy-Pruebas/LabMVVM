@@ -27,6 +27,16 @@ namespace Lab11
                 await Navigation.PushAsync(new SimpleDemo());
 
             };
+            Item3.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new CommandDemo());
+
+            };
+            Item4.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new Operaciones());
+
+            };
         }
     }
 }
